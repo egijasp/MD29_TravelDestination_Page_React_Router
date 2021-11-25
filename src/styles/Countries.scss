@@ -1,0 +1,16 @@
+.countries__container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+  padding-top: 40px;
+}
+
+.countries {
+  padding-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 250px);
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
