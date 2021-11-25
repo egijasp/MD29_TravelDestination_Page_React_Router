@@ -1,4 +1,5 @@
 import '../data/images/aboutme.png';
+import '../styles/Home.scss';
 
 const Home = () => (
   <div className="home__container">

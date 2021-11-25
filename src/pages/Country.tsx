@@ -1,6 +1,7 @@
 import { Link, useNavigate, useParams } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import countryList from '../data/countryList';
+import '../styles/Country.scss';
 
 type CountryType = typeof countryList[0];
 

@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import countryList from '../data/countryList';
+import '../styles/Countries.scss';
 
 const Countries = () => (
   <div className="countries__container">

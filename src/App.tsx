@@ -10,9 +10,9 @@ const App = () => (
   <div className="App">
     <header className="header">
       <nav className="header__nav">
-        <Link className="header__link" to="/">Home</Link>
+        <Link className="link link-header" to="/">Home</Link>
         &nbsp; &nbsp;
-        <Link className="header__link" to="/countries">Countries</Link>
+        <Link className="link link-header" to="/countries">Countries</Link>
       </nav>
     </header>
     <Routes>
